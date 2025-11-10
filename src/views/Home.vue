@@ -6,14 +6,6 @@
     <section class="hero-section">
       <img src="../assets/Banner new.jpg" alt="Background" class="hero-background">
       <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <p class="hero-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          dictum magna est, porttitor tincidunt sapien sodales sit amet.
-          Vestibulum consequat nisl
-        </p>
-        <button class="hero-btn">VER</button>
-      </div>
     </section>
 
     <!-- Marquee Separator -->
