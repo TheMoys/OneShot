@@ -67,7 +67,17 @@ nav {
   display: none;
 }
 
+/* Media Queries */
 @media (max-width: 768px) {
+  .nav-container {
+    padding: 0 1rem;
+  }
+
+  .nav-logo img {
+    max-width: 60px;
+    max-height: 60px;
+  }
+
   .nav-links {
     display: none;
   }
@@ -79,15 +89,35 @@ nav {
   .mobile-menu.active {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    margin-top: 1rem;
-    padding-top: 1rem;
-    border-top: 1px solid #374151;
+    padding: 1rem;
   }
 
   .mobile-menu a {
     color: #ffffff;
     text-decoration: none;
-    padding: 0.5rem 0;
+    padding: 1rem;
+    border-bottom: 1px solid #374151;
+    transition: background-color 0.3s ease;
+  }
+
+  .mobile-menu a:hover {
+    background-color: #1f2937;
+    color: #E3FF00;
+  }
+
+  .mobile-menu a:last-child {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-logo img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .mobile-menu a {
+    font-size: 0.9rem;
+    padding: 0.75rem;
   }
 }

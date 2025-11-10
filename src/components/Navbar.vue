@@ -23,10 +23,9 @@
 
     <!-- Mobile Menu -->
     <div :class="['mobile-menu', { active: isMenuOpen }]">
-      <router-link to="/contacto" @click="toggleMenu">contacto</router-link>
-      <router-link to="/producciones" @click="toggleMenu">programas</router-link>
-      <router-link to="/chat" @click="toggleMenu">chat</router-link>
-      <router-link to="/galeria" @click="toggleMenu">galería</router-link>
+      <router-link to="/contacto" @click="toggleMenu">Contacto</router-link>
+      <router-link to="/producciones" @click="toggleMenu">Programas</router-link>
+      <router-link to="/galeria" @click="toggleMenu">Galería</router-link>
     </div>
   </nav>
 </template>

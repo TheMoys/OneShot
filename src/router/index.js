@@ -1,21 +1,43 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-import Chat from '../views/Chat.vue'
-import Contacto from '../views/Contacto.vue'
-import Galeria from '../views/Galeria.vue'
-import Producciones from '../views/Producciones.vue'
+import ComingSoon from '../views/ComingSoon.vue'
 
 const routes = [
-  { path: '/', name: 'Home', component: Home },
-  { path: '/chat', name: 'Chat', component: Chat },
-  { path: '/contacto', name: 'Contacto', component: Contacto },
-  { path: '/galeria', name: 'Galeria', component: Galeria },
-  { path: '/producciones', name: 'Producciones', component: Producciones },
+  {
+    path: '/',
+    name: 'Home',
+    component: Home
+  },
+  {
+    path: '/contacto',
+    name: 'Contacto',
+    component: ComingSoon
+  },
+  {
+    path: '/producciones',
+    name: 'Producciones',
+    component: ComingSoon
+  },
+  {
+    path: '/servicios',
+    name: 'Servicios',
+    component: ComingSoon
+  },
+  {
+    path: '/galeria',
+    name: 'Galeria',
+    component: ComingSoon
+  },
+  {
+    path: '/chat',
+    name: 'Chat',
+    component: ComingSoon
+  }
 ]
 
 const router = createRouter({
   history: createWebHistory(),
-  routes,
+  routes
 })
 
 export default router
