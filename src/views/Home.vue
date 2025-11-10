@@ -19,23 +19,23 @@
     <!-- Marquee Separator -->
     <section class="marquee-section">
       <div class="marquee-content">
-        <span class="marquee-text">ONESHOT PRODUCTIONS • ONESHOT PRODUCTIONS • ONESHOT PRODUCTIONS • ONESHOT PRODUCTIONS
-          • ONESHOT PRODUCTIONS • ONESHOT PRODUCTIONS • </span>
-        <span class="marquee-text">ONESHOT PRODUCTIONS • ONESHOT PRODUCTIONS • ONESHOT PRODUCTIONS • ONESHOT PRODUCTIONS
-          • ONESHOT PRODUCTIONS • ONESHOT PRODUCTIONS • </span>
+        <span class="marquee-text">ENTRETENER, DIVERTIRSE Y SOBRE TODO ONESHOT • ENTRETENER, DIVERTIRSE Y SOBRE TODO
+          ONESHOT • ENTRETENER, DIVERTIRSE Y SOBRE TODO ONESHOT • ENTRETENER, DIVERTIRSE Y SOBRE TODO
+          ONESHOT • ENTRETENER, DIVERTIRSE Y SOBRE TODO ONESHOT • ENTRETENER, DIVERTIRSE Y SOBRE TODO
+          ONESHOT •</span>
       </div>
     </section>
 
     <!-- Productions Section -->
     <section class="productions-section">
       <div class="productions-content">
-        <h2 class="productions-title">PRODUCTIONS</h2>
         <router-link to="/producciones" class="productions-banner">
-          <img src="../assets/Banner_productions.svg" alt="Productions">
+          <img src="../assets/Banner_production.svg" alt="Productions">
         </router-link>
       </div>
     </section>
 
+    <!-- Services Section -->
     <!-- Services Section -->
     <section class="services-section">
       <div class="services-content">
@@ -44,15 +44,28 @@
         </div>
         <router-link to="/servicios" class="services-banner">
           <img src="../assets/Servicios_banner.svg" alt="Servicios">
+
+          <!-- Services Menu -->
+          <div class="services-menu">
+            <div class="services-menu-item">
+              <h3>CREA TU CONTENIDO</h3>
+            </div>
+            <div class="services-menu-item">
+              <h3>ENTRETENIMIENTO</h3>
+            </div>
+            <div class="services-menu-item">
+              <h3>ENTRETENIMIENTO</h3>
+            </div>
+          </div>
         </router-link>
       </div>
     </section>
 
     <!-- Videos Section -->
-    <section class="max-w-6xl mx-auto py-20 px-8">
+    <!-- <section class="max-w-6xl mx-auto py-20 px-8">
       <h2 class="text-4xl font-bold mb-8">Últimos vídeos</h2>
       <VideoList :videoIds="['dQw4w9WgXcQ', '3JZ_D3ELwOQ']" />
-    </section>
+    </section> -->
   </div>
 </template>
 

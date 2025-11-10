@@ -3,16 +3,14 @@
     <div class="nav-container">
       <!-- Logo -->
       <router-link to="/" class="nav-logo">
-        <span class="logo-one">ONE</span>
-        <span class="logo-shot">SHOT</span>
+        <img src="../assets/One Shot logo_Negro.png" alt="OneShot Productions Logo" class="nav-logo">
       </router-link>
 
       <!-- Desktop Navigation Links -->
       <div class="nav-links">
-        <router-link to="/contacto">contacto</router-link>
-        <router-link to="/producciones">programas</router-link>
-        <router-link to="/chat" class="chat-link">chat</router-link>
-        <router-link to="/galeria">galería</router-link>
+        <router-link to="/contacto">Contacto</router-link>
+        <router-link to="/producciones">Programas</router-link>
+        <router-link to="/galeria">Galería</router-link>
       </div>
 
       <!-- Mobile Menu Button -->

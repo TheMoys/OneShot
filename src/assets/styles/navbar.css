@@ -1,11 +1,12 @@
 nav {
   background-color: #000000;
-  padding: 1rem 2rem;
+  padding: 1rem 0;
 }
 
 .nav-container {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
+  padding: 0 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,27 +15,21 @@ nav {
 .nav-logo {
   display: flex;
   align-items: center;
+  padding-left: 0;
 }
 
-.nav-logo span {
-  font-size: 1.5rem;
-  font-weight: 900;
-  font-style: italic;
-  letter-spacing: -0.05em;
-}
-
-.nav-logo .logo-one {
-  color: #a3e635;
-}
-
-.nav-logo .logo-shot {
-  color: #ffffff;
+.nav-logo img {
+  max-width: 80px;
+  max-height: 80px;
+  width: auto;
+  height: auto;
 }
 
 .nav-links {
   display: flex;
   gap: 2rem;
   align-items: center;
+  padding-right: 1rem;
 }
 
 .nav-links a {
@@ -45,7 +40,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #a3e635;
+  color: #E3FF00;
 }
 
 .nav-links .chat-link {
