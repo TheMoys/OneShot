@@ -4,7 +4,7 @@
 
     <!-- Hero Section -->
     <section class="hero-section">
-      <img src="../assets/Banner 1.svg" alt="Background" class="hero-background">
+      <img src="../assets/Banner new.jpg" alt="Background" class="hero-background">
       <div class="hero-overlay"></div>
       <div class="hero-content">
         <p class="hero-description">
